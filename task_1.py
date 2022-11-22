@@ -6,7 +6,7 @@ def is_perfect(k):
     return sum(dividors) == k
 
 def get_perfect_numbers(n):
-    k = 100
+    k = 10000
     result = []
     for i in range(1, k):
         if is_perfect(i) is True and len(result) < n:
